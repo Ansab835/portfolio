@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+section:target {
+
+  border: 2px solid #151e3f;
+}
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f3d9;
+  color: #222;
+}
+
+header {
+  background-color: #151e3f;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #ffffffcc;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+  border-bottom: 2px solid #151e3f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.profile-img {
+  width: 140px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: #151e3f;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Button Styles */
+.btn {
+  background-color: #151e3f;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #151e3f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav a {
+    margin: 8px;
+  }
+  section {
+    padding: 20px;
+  }
+}
